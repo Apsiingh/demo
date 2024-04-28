@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Activation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="project">
+      <div id="content">
+        <button id="activateBtn">Activate</button>
+        <div id="buttons" style="display: none">
+          <button id="btnA" class="active green">A</button>
+          <button id="btnB" class="active red">B</button>
+          <button id="btnC" class="active yellow">C</button>
+        </div>
+      </div>
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
